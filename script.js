@@ -5,5 +5,11 @@ $("#start").click(function() {
   $("#gameArea").empty();
 });
 
+  let balloon = $("<div></div>");
+
+  balloon.addClass("balloon");
+
+  $("#gameArea").append(balloon);
+}
 
 
