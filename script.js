@@ -4,6 +4,18 @@ $("#start").click(function() {
   $("#score").text(score);
   $("#gameArea").empty();
 });
+function createBalloon() {
+  let colors = ["red", "blue", "green", "yellow", "orange", "purple", "pink"];
+
+  let randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+  let balloon = $("<div></div>");
+
+  balloon.addClass("balloon");
+
+  balloon.css({
+    background: randomColor
+  });
 
   let balloon = $("<div></div>");
 
