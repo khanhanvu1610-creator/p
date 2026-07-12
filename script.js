@@ -11,7 +11,7 @@ $("#start").click(function() {
 });
 
 function createBalloon() {
-  let colors = ["red", "blue", "green", "yellow", "orange", "purple", "pink"];
+  let colors = ["blue", "red", "green", "yellow", "orange", "pink"];
 
   let randomColor = colors[Math.floor(Math.random() * colors.length)];
 
