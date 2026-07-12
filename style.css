@@ -23,7 +23,7 @@ h1 {
   height: 500px;
   margin: auto;
   border: 3px solid white;
-  background: linear-gradient(lightblue, white);
+  background: linear-gradient(lightpink, white);
   position: relative;
   overflow: hidden;
 }
